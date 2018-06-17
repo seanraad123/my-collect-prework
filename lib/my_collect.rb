@@ -4,7 +4,6 @@ def my_collect (array)
     yield(array[i]) if block_given?
     i += 1
   end
-  puts array
 end
 
 array = ["ruby", "javascript", "python", "objective-c"]
