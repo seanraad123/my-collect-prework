@@ -3,6 +3,7 @@ def my_collect (array)
   while i < array.length
     yield(array.upcase) if block_given?
     i += 1
+    puts i
   end
   puts array
 end
