@@ -4,7 +4,7 @@ def my_collect (array)
     yield(array.upcase) if block_given?
     i += 1
   end
-  puts array
+  #array
 end
 
 array = ["ruby", "javascript", "python", "objective-c"]
