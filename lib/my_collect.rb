@@ -6,3 +6,7 @@ def my_collect (array)
   end
   puts array
 end
+
+array = ["ruby", "javascript", "python", "objective-c"]
+
+my_collect(array)
